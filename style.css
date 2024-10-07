@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: "custom font";
+    src: url('./Font/Caveat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "my font";
+    src: url('./Font/Caveat-Bold.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #335557;
+}
+
+
+.container {
+    background-color:  cadetblue;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    border-top-right-radius:  20px;
+    border-top-left-radius:  20px;
+    border: 1px solid #62a0a2;
+
+}
+
+h1 {
+    color: #006A4E;
+    font-family: "custom font";
+    margin-top: 10px;
+    margin-left: 40%;
+    
+
+}
+
+.inner-container {
+    font-family: 'my font';
+    margin-left: 20px;
+}
+
+input {
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #1CAC78;
+    color: #fff;
+}
+
+button {
+    background-color: #4B907B;
+    color: wheat;
+    cursor: pointer;
+    width: 100px;
+    height: 3vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+button:hover {
+    color: #fff;
+    background-color: #1CAC78;
+    margin-top: 10px;
+}
+
+#container-2 {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 35%;
+    background-color: #62a0a2;
+    width: 30%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* padding-top: 20px; */
+    padding-left: 8px
+
+   
+
+    
+}
